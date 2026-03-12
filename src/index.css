@@ -1,0 +1,15 @@
+/* Global resets only – theme is in App.css */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+  color: #000000;
+  min-height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
